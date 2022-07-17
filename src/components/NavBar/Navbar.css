@@ -1,0 +1,38 @@
+nav{
+  background: #000000;
+  height: 80px;
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+nav ul li{
+  margin: 0 5px;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+li a.active, li a:hover{
+  background: #efb810;
+  transition: .5s;
+}
+
+nav ul li a {
+  text-decoration: none;
+  
+}
+
+
+  
